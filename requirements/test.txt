@@ -1,0 +1,3 @@
+# requirements/test.txt
+# uv add -r requirements/test.txt
+include requirements/base.txt

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% translate "Profile" %}{% endblock %}
+
+{% block content %}
+<div>
+    <div">
+        <h1>{% translate "User" %}</h1>
+    </div>
+    <div>
+        <p>{% translate "User" %}: {{ user }}</p>
+    </div>
+</div>
+{% endblock %}

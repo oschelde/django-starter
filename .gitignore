@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+
+# Environment variables
+.env
+
+# Project-specific files
+node/
+media/
+db.sqlite3
+
+# MacOS files
+.DS_Store

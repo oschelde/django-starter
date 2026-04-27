@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% translate "About" %}{% endblock %}
+
+{% block content %}
+<div>
+    <div>
+        <h1>{% translate "About" %}</h1>
+    </div>
+    <div>
+        <p>{% trans "Section" %}: {{section}}</p>
+    </div>
+</div>
+{% endblock %}

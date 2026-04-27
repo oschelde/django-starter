@@ -1,0 +1,7 @@
+# requirements/base.txt
+# uv add -r requirements/base.txt
+django
+django-extensions
+django-environ
+django-allauth
+psycopg[binary]
