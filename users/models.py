@@ -9,9 +9,9 @@ from core.models import BaseTimestampedModel
 
 
 class User(AbstractUser, BaseTimestampedModel):
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4)
-    phone = models.CharField(max_length=16, unique=True, blank=True, null=True)
-    phone_verified = models.BooleanField(default=False)
+    id = models.UUIDField(_("id"), primary_key=True, default=uuid.uuid4)
+    phone = models.CharField(_("phone"), max_length=16, unique=True, blank=True, null=True)
+    phone_verified = models.BooleanField(_("phone verified"), default=False)
     email_verified_at = models.DateTimeField(
         _("email verified at"), blank=True, null=True
     )
