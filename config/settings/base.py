@@ -161,13 +161,7 @@ LOCALE_PATHS = [
 
 LANGUAGES = [
     ("da", "Danish"),
-    ("de", "German"),
     ("en", "English"),
-    ("fr", "French"),
-    ("it", "Italian"),
-    ("nb", "Norwegian Bokmål"),
-    ("pl", "Polish"),
-    ("sv", "Swedish"),
 ]
 
 SITE_ID = 1
